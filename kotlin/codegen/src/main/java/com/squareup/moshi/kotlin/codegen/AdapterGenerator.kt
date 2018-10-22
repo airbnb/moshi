@@ -106,6 +106,9 @@ internal class AdapterGenerator(
     }
 
     result.superclass(jsonAdapterTypeName)
+    val suppressPlatformClass =
+            AnnotationSpec.builder(Suppress::class).addMember(CodeBlock.of("PLATFORM_CLASS_MAPPED_TO_KOTLIN, DEPRECATION")).build()
+    result.addAnnotation(suppressPlatformClass)
 
     if (typeVariables.isNotEmpty()) {
       result.addTypeVariables(typeVariables)

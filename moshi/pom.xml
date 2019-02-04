@@ -6,7 +6,7 @@
   <parent>
     <groupId>com.squareup.moshi</groupId>
     <artifactId>moshi-parent</artifactId>
-    <version>1.8.0-AIRBNB5</version>
+    <version>1.8.0-AIRBNB6</version>
   </parent>
 
   <artifactId>moshi</artifactId>

@@ -3,7 +3,7 @@
   <parent>
     <artifactId>moshi-parent</artifactId>
     <groupId>com.squareup.moshi</groupId>
-    <version>1.8.0-AIRBNB5</version>
+    <version>1.8.0-AIRBNB6</version>
     <relativePath>../../pom.xml</relativePath>
   </parent>
   <modelVersion>4.0.0</modelVersion>
@@ -140,7 +140,7 @@
     <dependency>
       <groupId>com.squareup.moshi</groupId>
       <artifactId>moshi</artifactId>
-      <version>1.8.0-AIRBNB2</version>
+      <version>1.8.0-AIRBNB6</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
